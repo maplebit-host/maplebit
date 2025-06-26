@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MapleBit</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #ffa726;
+      color: white;
+      padding: 0;
+    }
+    header, footer, section {
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    p.slogan {
+      font-size: 1.5rem;
+      margin-top: 0;
+    }
+    img.logo {
+      width: 160px;
+      margin-bottom: 20px;
+      border-radius: 50%;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+    }
+    .btn {
+      display: inline-block;
+      background-color: white;
+      color: #ffa726;
+      padding: 12px 24px;
+      border-radius: 25px;
+      font-weight: bold;
+      text-decoration: none;
+      margin-top: 20px;
+    }
+    section {
+      background-color: rgba(255, 255, 255, 0.05);
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 20px;
+    }
+    .feature {
+      flex: 1 1 250px;
+      max-width: 300px;
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 12px;
+    }
+    .feature h3 {
+      margin-top: 0;
+      color: white;
+    }
+    footer {
+      font-size: 0.9rem;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+    }
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2.2rem;
+      }
+      p.slogan {
+        font-size: 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="maplebit_logo.png" alt="MapleBit Logo" class="logo" />
+    <h1>MapleBit</h1>
+    <p class="slogan">Trade game currencies like real coins.<br />MapleBit replaces every in-game currency.</p>
+    <a href="#" class="btn">Read the Whitepaper</a>
+  </header>
+
+  <section>
+    <h2>Why MapleBit?</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>For Gamers</h3>
+        <p>Use one universal coin across your favorite games. Say goodbye to scattered in-game currencies.</p>
+      </div>
+      <div class="feature">
+        <h3>Secure & Transparent</h3>
+        <p>Blockchain-backed transactions ensure trust and transparency for all players and developers.</p>
+      </div>
+      <div class="feature">
+        <h3>Community Driven</h3>
+        <p>Built with input from real gamers. Your voice helps shape the future of game-based crypto.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 MapleBit. All rights reserved.
+  </footer>
+</body>
+</html>
